@@ -13,7 +13,7 @@ for (var i = 0; i < MAX; i++) {
   multiplier = 2;
   while (multiplier * i < MAX) { // mark all multiples false
     sieve[multiplier * i] = false;
-    multiplier;
+    multiplier++;
   }
 }
 
